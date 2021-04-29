@@ -92,15 +92,15 @@ svg {
 
 #input-mic {
   position: absolute;
-  margin-left: -2.5rem;
-  margin-top: 1.55rem;
+  margin-left: 39.3rem;
+  margin-top: -2.3rem;
   height: 28px;
 }
 
 #input-mag {
   position: absolute;
-  margin-left: -37.2rem;
-  margin-top: 1.9rem;
+  margin-left: -41rem;
+  margin-top: 2rem;
   height: 20px;
   fill: #9aa0a6;
 }
@@ -116,7 +116,8 @@ svg {
   justify-content: space-between;
   background-color: rgba(60, 64, 67, 0.08);
   position: fixed;
-  bottom: 0;
+  flex-basis: 0%;
+  bottom: 11%;
   width: 100%;
   align-items: baseline;
   height: 6%;
@@ -143,8 +144,10 @@ svg {
     align-items: center;
     width: 50vw;
   }
+  
   #container-5 {
     height: 10%;
+    bottom: 10%;
   }
 
   #carbon {
@@ -170,11 +173,16 @@ svg {
   #container-4 input {
     width: 50vw;
   }
+
+  #container-5 {
+    bottom: 10%;
+  }
 }
 
 @media only screen and (max-width: 621px) {
   #container-5 {
     height: 15%;
+    bottom: 10%;
   }
 
   #advertising {
